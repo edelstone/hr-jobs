@@ -55,6 +55,7 @@ div#contentWrapper {max-width: 1200px;}
 #footer a {color: #ffffff; text-decoration: none; border-bottom: 1px dotted #bbab92;}
 #footer a:hover {color: #ffffff; text-decoration: none; border-bottom: 1px solid #bbab92;}
 #footer .col-lg-4.col-sm-4 {margin-bottom: 20px;}
+#footer h4 {font-weight: bold;}
 
 /* Widescreens */
 
