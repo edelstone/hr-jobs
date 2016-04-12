@@ -40,8 +40,9 @@ div#contentWrapper {max-width: 1200px;}
 .widget .widget-content {background: #6a5638;}
 .widget .widget-content h3 {margin: 0 !important; display: inline-block; font-family: inherit;}
 .widget .widget-content h3:hover {text-decoration: underline;}
-.widget img {-webkit-transition: all 1.5s ease; -moz-transition: all 1.5s ease; -o-transition: all 1.5s ease; transition: all 1.5s ease;}
-.widget:hover img {-webkit-transform: perspective(1px) scale(1.05); -moz-transform: perspective(1px) scale(1.05); -ms-transform: scale(1.05); -o-transform: scale(1.05); transform: perspective(1px) scale(1.05);}
+.widget-header {background: #ffffff !important;}
+.widget img {opacity: 0.85; -webkit-transition: all 1.5s ease; -moz-transition: all 1.5s ease; -o-transition: all 1.5s ease; transition: all 1.5s ease;}
+.widget:hover img {opacity: 1; -webkit-transform: perspective(1px) scale(1.05); -moz-transform: perspective(1px) scale(1.05); -ms-transform: scale(1.05); -o-transform: scale(1.05); transform: perspective(1px) scale(1.05);}
 .widget-image.with-thumb {overflow: hidden;}
 .section-widget-group a:hover, .section-widget-group a:focus {color: #fff; text-decoration: none;}
 .alert {color: #222222; background: #fff !important;}
