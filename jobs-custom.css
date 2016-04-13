@@ -58,7 +58,6 @@ div#contentWrapper {max-width: 1200px;}
 #footer h4 {font-weight: bold; font-size: 16px;}
 
 /* Widescreens */
-
 @media (min-width: 1200px) {
 #content {width: 75%;}
 #nav {width: 25%;}
