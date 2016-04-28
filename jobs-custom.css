@@ -51,7 +51,7 @@ div#contentWrapper {max-width: 1200px;}
 .alert > p, .alert > ul {margin-bottom: 10px;}
 
 /* Footer */
-#footer {background-color: #6a5638; padding: 40px 0 30px 0;}
+#footer {background-color: #6a5638; padding: 50px 0 40px 0;}
 #footer a {color: #ffffff; text-decoration: none; border-bottom: 1px dotted #bbab92;}
 #footer a:hover {color: #ffffff; text-decoration: none; border-bottom: 1px solid #bbab92;}
 #footer .col-lg-4.col-sm-4 {margin-bottom: 20px;}
