@@ -62,7 +62,7 @@ div#contentWrapper {max-width: 1200px;}
 #footer h4 {font-weight: bold; font-size: 16px;}
 
 /* Subpages */
-.btn {min-width: 225px; padding: 8px 12px;}
+.btn {min-width: 160px; padding: 8px 12px;}
 .btn-info, #posting-action-links a[href^="/bookmarks"], .add_row, .job-actions a[href^="/bookmarks"] {background: #4a4948; border-color: #262524;}
 .btn-primary, #go_commit_top, #go_commit_bottom, .new_user input[name="commit"], .job-actions a[href^="/postings"], .job-actions a[href^="/pools"], form[action="/position_descriptions/search"] input[name="commit"], form[action="/postings/search"] input[name="commit"], form[action="/titles/search"] input[name="commit"] {background-color: #501214; border-color: #380d0e;}
 .btn, #posting-action-links a[href^="/bookmarks"], #posting-action-links a[href*="/print_preview"], #posting-action-links a[href^="/login"], #submission_submit_top, #next_commit_top, #prev_commit_top, #go_commit_top, #submission_submit_bottom, .add_row, #posting-action-links a[href$="pre_apply"], #next_commit_bottom, #prev_commit_bottom, #go_commit_bottom, .new_user input[name="commit"], .job-actions a[href^="/bookmarks"], .job-actions a[href^="/postings"], form[action="/postings/search"] input[name="commit"], .apply-to-job-form {transition: none;}
