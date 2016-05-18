@@ -73,6 +73,7 @@ div#contentWrapper {max-width: 1200px;}
 .btn-lg, #posting-action-links a[href^="/login"], #posting-action-links a[href$="pre_apply"], .apply-to-job-form {font-size: 14px; font-weight: 600;}
 #form_view {padding: 10px 0;}
 #form_view table {border: 2px solid #d7d7d7;}
+#form_view .form_container {overflow-x: scroll;}
 #form_view th {background: #d7d7d7; padding: 12px 8px; line-height: 1.4em; font-weight: 600;}
 #form_view .form_container h3 {display: none;}
 .search-extra {background: #ebebeb;}
