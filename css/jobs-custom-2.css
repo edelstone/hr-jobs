@@ -4,7 +4,7 @@
 body {color: #222222; line-height: 1.6em;}
 .container {padding-left: 0; padding-right: 0; max-width: 1200px;}
 #content {width: 100%; margin-top: -30px;}
-#pages_index #content, #pages_index #header, #pages_index #mainBodyDiv {overflow: hidden;}
+#pages_index #mainBodyDiv {overflow: hidden;}
 #nav {width: 100%;}
 #contentWrapper {padding: 0 15px;}
 .row {overflow: auto;}
