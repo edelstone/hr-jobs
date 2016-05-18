@@ -84,6 +84,15 @@ div#contentWrapper {max-width: 1200px;}
 #form_view h2.tab {font-size: 20px; margin-bottom: 20px;}
 h2.pad-left {padding: 0 0 6px 0;}
 #flash p.error, #error-messages p.error {padding: 1em;}
+.btn-external-login {background: #501214; border-color: #380d0e; color: #ffffff !important; text-shadow: none; min-width: 200px; margin: 15px 0 20px 15px; font-family: inherit; letter-spacing: 0; height: auto;}
+.external-login-container {background-color: #f4f1ed; padding: 15px 20px;}
+.local-login-option-container {background-color: #d7d7d7; margin: 0 15px 40px 15px;}
+.external-login-container img {width: 350px;}
+#sessions_new #content_inner .container-fluid:nth-child(1) h1 {position: relative; top: -5px; left: -15px;}
+.login_option_header {font-weight: bold; color: #6a5638; font-size: 24px;}
+#local-account.login {background-color: #d7d7d7; margin-bottom: 40px;}
+#local-account.login .container-fluid {padding: 5px 20px 15px 20px;}
+.new_user input[name="commit"] {padding: 8px 12px; border-width: 1px; border-radius: 4px; margin: 10px 0;}
 
 /* Widescreens */
 @media (min-width: 1200px) {
