@@ -73,6 +73,7 @@ div#contentWrapper {max-width: 1200px;}
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {color: #ffffff; background-color: #501214; border-color: #380d0e;}
 #users_edit input[type="submit"] {background: #501214; border: 1px solid #380d0e; color: #ffffff; padding: 8px 12px; min-width: 200px; border-radius: 4px; text-transform: capitalize;}
 #search_results .job-item {margin-bottom: 20px; border-bottom: 1px solid #e8e3db; padding-bottom: 20px;}
+#search_results .job-item:last-child {border-bottom: none;}
 #search_results .job-item h3 {font-size: 20px;}
 #posting-action-links a:before, .job-actions a[href^='/postings']:before, .job-actions a[href^='/position_descriptions']:before, .job-actions a[href^='/titles']:before, .apply-to-job-form:before {padding-right: 5px;}
 .btn-lg, #posting-action-links a[href^="/login"], #posting-action-links a[href$="pre_apply"], .apply-to-job-form {font-size: 14px; font-weight: 600;}
@@ -101,9 +102,14 @@ form.apply-to-job-form:hover {color: #ffffff;}
 input.continue-job {background: transparent; padding: 0; color: #ffffff;}
 input.add_row {min-width: 200px;}
 input.add_row:hover {color: #fff;}
-#job_applications_edit span.reqd {color: #b30e1b;}
+#job_applications_edit span.reqd, span.star {color: #b30e1b;}
 div#form_tab_5 .btn {border: none; text-align: left; color: #005481;}
 .job-application-list, .recommendation-list {margin-bottom: 20px;}
+.section-separator {margin: 25px 0 25px 0;}
+.job-application-seperator {padding-top: 15px;}
+#form_view h2.incomplete {border-bottom: 1px solid #DD3C10; padding-bottom: 10px;}
+#form_view h2.complete {border-bottom: 1px solid #9DFF9D; padding-bottom: 10px;}
+#job_applications_show h2 img {max-width: 18px;}
 
 /* Widescreens */
 @media (min-width: 1200px) {
