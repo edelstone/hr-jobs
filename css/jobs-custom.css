@@ -63,17 +63,20 @@ div#contentWrapper {max-width: 1200px;}
 
 /* Subpages */
 .btn {min-width: 200px; padding: 8px 12px;}
-.btn-info, #posting-action-links a[href^="/bookmarks"], .add_row, .job-actions a[href^="/bookmarks"] {background: #4a4948; border-color: #262524;}
-.btn-primary, #go_commit_top, #go_commit_bottom, .new_user input[name="commit"], .job-actions a[href^="/postings"], .job-actions a[href^="/pools"], form[action="/position_descriptions/search"] input[name="commit"], form[action="/postings/search"] input[name="commit"], form[action="/titles/search"] input[name="commit"] {background-color: #501214; border-color: #380d0e;}
+.btn:hover, .btn:focus, .btn.focus {color: inherit;}
+.btn:active, .btn.active {box-shadow: none;}
+.btn-info, #posting-action-links a[href^="/bookmarks"], .add_row, .job-actions a[href^="/bookmarks"] {background: #4a4948; border-color: #262524; color: #ffffff;}
+.btn-primary, #go_commit_top, #go_commit_bottom, .new_user input[name="commit"], .job-actions a[href^="/postings"], .job-actions a[href^="/pools"], form[action="/position_descriptions/search"] input[name="commit"], form[action="/postings/search"] input[name="commit"], form[action="/titles/search"] input[name="commit"] {background-color: #501214; border-color: #380d0e; color: #ffffff;}
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {background-color: #501214; border-color: #380d0e; color: #ffffff;}
 .btn, #posting-action-links a[href^="/bookmarks"], #posting-action-links a[href*="/print_preview"], #posting-action-links a[href^="/login"], #submission_submit_top, #next_commit_top, #prev_commit_top, #go_commit_top, #submission_submit_bottom, .add_row, #posting-action-links a[href$="pre_apply"], #next_commit_bottom, #prev_commit_bottom, #go_commit_bottom, .new_user input[name="commit"], .job-actions a[href^="/bookmarks"], .job-actions a[href^="/postings"], form[action="/postings/search"] input[name="commit"], .apply-to-job-form {transition: none;}
-.btn-default {background-color: #501214; color: #fff; border-color: #380d0e;}
-.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {color: #fff; background-color: #622a2b; border-color: #400e10;}
+.btn-default {background-color: #501214; border-color: #380d0e; color: #ffffff;}
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {color: #ffffff; background-color: #501214; border-color: #380d0e;}
+#users_edit input[type="submit"] {background: #501214; border: 1px solid #380d0e; color: #ffffff; padding: 8px 12px; min-width: 200px; border-radius: 4px; text-transform: capitalize;}
 #search_results .job-item {margin-bottom: 20px; border-bottom: 1px solid #e8e3db; padding-bottom: 20px;}
 #search_results .job-item h3 {font-size: 20px;}
-#posting-action-links a:before, .job-actions a[href^='/postings']:before, .job-actions a[href^='/position_descriptions']:before, .job-actions a[href^='/titles']:before {padding-right: 5px;}
+#posting-action-links a:before, .job-actions a[href^='/postings']:before, .job-actions a[href^='/position_descriptions']:before, .job-actions a[href^='/titles']:before, .apply-to-job-form:before {padding-right: 5px;}
 .btn-lg, #posting-action-links a[href^="/login"], #posting-action-links a[href$="pre_apply"], .apply-to-job-form {font-size: 14px; font-weight: 600;}
 #form_view {padding: 10px 0;}
-#form_view table {border: 2px solid #d7d7d7;}
 #form_view .form_container {overflow-x: scroll;}
 #form_view th {background: #d7d7d7; padding: 12px 8px; line-height: 1.4em; font-weight: 600;}
 #form_view .form_container h3 {display: none;}
@@ -83,7 +86,7 @@ div#contentWrapper {max-width: 1200px;}
 .instructions h3 {margin: 5px auto 15px; font-weight: 600;}
 #form_view h2.tab {font-size: 20px; margin-bottom: 20px;}
 h2.pad-left {padding: 0 0 6px 0;}
-#flash p.error, #error-messages p.error {padding: 1em;}
+#flash p.error, #error-messages p.error, #flash p.success {padding: 1em;}
 .btn-external-login {background: #501214; border-color: #380d0e; color: #ffffff !important; text-shadow: none; min-width: 200px; margin: 15px 0 20px 15px; font-family: inherit; letter-spacing: 0; height: auto;}
 .external-login-container {background-color: #f4f1ed; padding: 15px 20px;}
 .local-login-option-container {background-color: #d7d7d7; margin: 0 15px 40px 15px;}
@@ -93,6 +96,14 @@ h2.pad-left {padding: 0 0 6px 0;}
 #local-account.login {background-color: #d7d7d7; margin-bottom: 40px;}
 #local-account.login .container-fluid {padding: 5px 20px 15px 20px;}
 .new_user input[name="commit"] {padding: 8px 12px; border-width: 1px; border-radius: 4px; margin: 10px 0;}
+form.apply-to-job-form {color: #ffffff; background: #501214; padding: 8px 12px; min-width: 200px;    border-color: #380d0e;}
+form.apply-to-job-form:hover {color: #ffffff;}
+input.continue-job {background: transparent; padding: 0; color: #ffffff;}
+input.add_row {min-width: 200px;}
+input.add_row:hover {color: #fff;}
+#job_applications_edit span.reqd {color: #b30e1b;}
+div#form_tab_5 .btn {border: none; text-align: left; color: #005481;}
+.job-application-list, .recommendation-list {margin-bottom: 20px;}
 
 /* Widescreens */
 @media (min-width: 1200px) {
