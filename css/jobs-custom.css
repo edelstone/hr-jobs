@@ -9,6 +9,7 @@ body {color: #222222; line-height: 1.6em;}
 #contentWrapper {padding: 0 15px;}
 a {color: #005481;}
 a:hover, a:focus {color: #33769a; text-decoration: none;}
+.offScreenDiv {display: none;}
 
 /* Header */
 #header {background: #D1C7B7; background-image: -webkit-linear-gradint(top, #D1C7B7 0%, #BBAB92 100%); background-image: -o-linear-gradient(top, #D1C7B7 0%, #BBAB92 100%); background-image: linear-gradient(to bottom, #D1C7B7 0%, #BBAB92 100%); background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFD1C7B7', endColorstr='#FFBBAB92', GradientType=0); border-bottom: 2px solid #6A5638; border-top: 10px solid #6a5638;}
